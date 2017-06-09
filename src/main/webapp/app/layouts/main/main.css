@@ -1,0 +1,8 @@
+.wrap-content-area {
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    background-color: mediumseagreen;
+    top: 0;
+    right: 0;
+}

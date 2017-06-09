@@ -1,0 +1,25 @@
+<!-- This is the component being used as the root to bootstrap application -->
+
+<!-- Commented out the following code that was set by JHipster, commenting this out gives this error in the JavaScript Console:
+   ERROR: Cannot fine the primary outlet to load 'HomeComponent' which has this selector: <jhi-home>
+   NOTE TO SELF: Worry about this later -->
+<!--<jhi-page-ribbon></jhi-page-ribbon>-->
+<!--<div>-->
+    <!--<router-outlet name="navbar"></router-outlet>-->
+<!--</div>-->
+<!--<div class="container-fluid">-->
+    <!--<div class="card jh-card">-->
+        <!--<router-outlet></router-outlet>-->
+        <!--<router-outlet name="popup"></router-outlet>-->
+    <!--</div>-->
+<!--</div>-->
+
+<!-- Leo added this code -->
+<jhi-sidebar></jhi-sidebar>
+<div class="wrap-content-area">
+    <router-outlet name="navbar"></router-outlet>
+
+</div>
+
+<router-outlet></router-outlet>
+

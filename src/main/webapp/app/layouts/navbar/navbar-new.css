@@ -1,0 +1,144 @@
+nav {
+    background: rgba(142,136,136,0.50);
+    position: fixed;
+    width: 80%;
+    height: 25%;
+    margin: 0;
+    top: 0;
+    right: 0;
+    padding: 0;
+}
+
+nav div.add-requirements, nav div.view-requirements, nav div.team-backlog, nav div.user-backlog, nav div.track-issues {
+    font-family: AndaleMono;
+    font-size: 14px;
+    color: #9B9B9B;
+    border-radius: 8px;
+    background-color: white;
+    width: 15%;
+    text-align: center;
+    margin: 10px;
+}
+
+div.login button {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    border-style: solid;
+    border-radius: 15px 15px 15px 15px;
+    border-width: 2px;
+    letter-spacing: 2px;
+    padding: 10px;
+    margin: 15px;
+}
+
+div.login a:link {
+    color: rgba(142,136,136,0.50);
+    text-decoration: none;
+}
+
+div.login {
+    width: 10%;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+
+
+
+/* Generated from Sketch CSS Attributes for complete nav bar + tab buttons */
+
+/*!* Welcome Message: *!*/
+/*font-family: AndaleMono;*/
+/*font-size: 20px;*/
+/*color: #FFFFFF;*/
+
+/*!* Add Requirements: *!*/
+/*font-family: AndaleMono;*/
+/*font-size: 14px;*/
+/*color: #9B9B9B;*/
+
+/*!* View Requirements: *!*/
+/*font-family: AndaleMono;*/
+/*font-size: 14px;*/
+/*color: #4A4A4A;*/
+
+/*!* Team Backlog: *!*/
+/*font-family: AndaleMono;*/
+/*font-size: 14px;*/
+/*color: #9B9B9B;*/
+
+/*!* My Backlog: *!*/
+/*font-family: AndaleMono;*/
+/*font-size: 14px;*/
+/*color: #9B9B9B;*/
+
+/*!* Track Issues: *!*/
+/*font-family: AndaleMono;*/
+/*font-size: 14px;*/
+/*color: #9B9B9B;*/
+
+/*!* Project Title: *!*/
+/*font-family: AndaleMono;*/
+/*font-size: 36px;*/
+/*color: #FFFFFF;*/
+
+/*!* Project Status Indicator: *!*/
+/*background: #7ED321;*/
+
+/*!* Current Iteration Cy: *!*/
+/*font-family: AndaleMono;*/
+/*font-size: 14px;*/
+/*color: #FFFFFF;*/
+
+/*!* Current Iteration Field: *!*/
+/*border: 1px solid #FFFFFF;*/
+/*border-radius: 8px;*/
+
+/*!* 1: *!*/
+/*font-family: AndaleMono;*/
+/*font-size: 14px;*/
+/*color: #FFFFFF;*/
+
+/*!* Start Date:: *!*/
+/*font-family: AndaleMono;*/
+/*font-size: 14px;*/
+/*color: #FFFFFF;*/
+
+/*!* Start Date Text Field: *!*/
+/*border: 1px solid #FFFFFF;*/
+/*border-radius: 8px;*/
+
+/*!* 06/01/2017: *!*/
+/*font-family: AndaleMono;*/
+/*font-size: 14px;*/
+/*color: #FFFFFF;*/
+
+/*!* End Date:: *!*/
+/*font-family: AndaleMono;*/
+/*font-size: 14px;*/
+/*color: #FFFFFF;*/
+
+/*!* End Date Text Field: *!*/
+/*border: 1px solid #FFFFFF;*/
+/*border-radius: 8px;*/
+
+/*!* 06/22/2017: *!*/
+/*font-family: AndaleMono;*/
+/*font-size: 14px;*/
+/*color: #FFFFFF;*/
+
+/*!* 06/05/2017: *!*/
+/*font-family: AndaleMono;*/
+/*font-size: 14px;*/
+/*color: #FFFFFF;*/
+
+/*!* Rectangle: *!*/
+/*border: 1px solid #FFFFFF;*/
+/*border-radius: 8px;*/
+
+/*!* Today’s Date:: *!*/
+/*font-family: AndaleMono;*/
+/*font-size: 14px;*/
+/*color: #FFFFFF;*/

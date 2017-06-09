@@ -1,0 +1,58 @@
+/* Static side bar: */
+* {
+    font-family: "Andale Mono";
+}
+
+div.static-side-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    height: 100%; /* to set to max height, height = 100%*/
+    background: #589BBE;
+}
+
+/* Account Settings and Project Settings buttons */
+div  button.project-settings, div  button.account-settings {
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    letter-spacing: 2px;
+    padding: 10px;
+    border-radius: 15px 15px 15px 15px;
+    margin: 15px;
+    border-style: solid;
+}
+
+div.projects-list ul li, div.team-list ul li {
+    color: white;
+    font-size: 14px;
+}
+
+div.projects-list button {
+    border-radius: 10px 5px 10px 5px;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+ul {
+    text-align: left;
+}
+
+/* All divs */
+div {
+    text-align: center;
+}
+
+div.projects-list label, div.team-list label, div.discussions label {
+    color: white;
+    font-weight: bold;
+}
+
+div.discussions {
+    top: 50%;
+}
